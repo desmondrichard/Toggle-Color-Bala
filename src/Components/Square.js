@@ -5,7 +5,6 @@ function Square({ colorValue, hexValue, isDarkText }) {
         <div className='div text-center' style={{ backgroundColor: colorValue, color: isDarkText ? "#000" : "#FFF" }}>
             {colorValue ? colorValue : "Empty Value"}<br />
             {hexValue ? hexValue : null}
-
         </div >
 
     )

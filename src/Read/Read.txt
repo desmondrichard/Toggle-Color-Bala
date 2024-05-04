@@ -1,0 +1,2 @@
+installed colorNames: npm i colorname -S    
+to automatically fetch hex value based on color name we provide
