@@ -1,9 +1,11 @@
 import React from 'react'
 
-function Square() {
+function Square({ colorValue, hexValue, isDarkText }) {
     return (
-        <div className='div'>
-            <p>Empty Value</p>
+        <div className='div text-center' style={{ backgroundColor: colorValue, color: isDarkText ? "#000" : "#FFF" }}>
+            {colorValue ? colorValue : "Empty Value"}<br />
+            {hexValue ? hexValue : null}
+
         </div >
 
     )
